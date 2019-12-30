@@ -3,7 +3,7 @@ class CreatePlants < ActiveRecord::Migration[6.0]
     create_table :plants do |t|
       t.string :name
       t.integer :price
-      t.integer :inventory
+      t.integer :inventory, default: 30
       t.string :care_category
       t.string :image
       t.string :description

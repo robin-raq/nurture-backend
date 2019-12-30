@@ -1,4 +1,4 @@
 class PlantOrder < ApplicationRecord
-    belongs_to :customer
+    belongs_to :plant
     belongs_to :order
 end
