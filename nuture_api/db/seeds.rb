@@ -33,6 +33,8 @@ plant10 = Plant.create(name: "Faux Weeping Ficus Tree", price: 150, care_categor
 
 plant11 = Plant.create(name: "Alocasia Polly", price: 40, care_category: "expert", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_alocasia-polly_featured_3900ac92-b029-4f87-824b-2572823bf7fa_768x.jpg?v=1576167841", description: "Get the elephant ear plant look at home with the Alocasia Polly. It has deep green arrowhead shaped foliage marked by high contrasting white veins.")
 
+plant12 = Plant.create(name: "Hoya Heart Plant", price: 20, care_category: "beginner", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_hoya-heart_featured_768x.jpg?v=1576004676", description: "This Hoya kerrii cutting is commonly referred to as the Hoya Heart because of its heart-shaped leaf. The leaf is partially rooted.")
+
 
 customer1 = Customer.create(name: "Hope")
 customer2 = Customer.create(name: "Alysia")
