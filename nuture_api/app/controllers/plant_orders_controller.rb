@@ -1,5 +1,10 @@
 class PlantOrdersController < ApplicationController
 
+    def index
+        @plant_orders = PlantOrder.all
+        render json: @plant_Orders, include: "**"
+    end
+
     def create
         @plant_order =PlantOrder.create(plant_order_params)
         if @plant_order.valid?
@@ -9,6 +14,8 @@ class PlantOrdersController < ApplicationController
         end
 
     end
+
+    
 
     private
     def plant_order_params
